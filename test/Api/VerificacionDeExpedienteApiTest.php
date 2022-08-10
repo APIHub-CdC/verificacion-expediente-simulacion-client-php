@@ -8,8 +8,6 @@ use CirculoDeCredito\VerificacionExpediente\Model\Domicilio;
 use CirculoDeCredito\VerificacionExpediente\Api\ApiClient;
 use CirculoDeCredito\VerificacionExpediente\Configuration;
 use CirculoDeCredito\VerificacionExpediente\ApiException;
-use CirculoDeCredito\VerificacionExpediente\Interceptor\KeyHandler;
-use CirculoDeCredito\VerificacionExpediente\Interceptor\MiddlewareEvents;
 use CirculoDeCredito\VerificacionExpediente\Model\CatalogoEstados;
 use CirculoDeCredito\VerificacionExpediente\Model\CatalogoSexo;
 use GuzzleHttp\Client as HttpClient;
